@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="main.js"></script>
+		<title>
+        BillSplit
+    </title>
+    </head>
+    <body>
+			<h1>
+				BillSplit: My quick bill splitting program
+			</h1>
+			<div id="newUserMenu">
+				Name:
+				<input type="text" id="name"/>
+				Total:
+				<input type="number" id="total" step=".01"/>
+				<br/>
+				<button id="submitCustomer" onclick="addCustomer()">Submit</button>
+			</div>
+			<div id="globalMenu">
+				Tip:
+				<input type="number" id="tip"/>
+				Fees:
+				<input type="number" id="fees"/>
+			</div>
+			<div id="customerList">
+			</div>
+    </body>
+<html>
